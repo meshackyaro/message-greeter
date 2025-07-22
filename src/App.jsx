@@ -1,5 +1,5 @@
 import { useState } from "react";
-import abi from "./api.json";
+import abi from "./abi.json";
 import { ethers } from "ethers";
 
 const contractAddress = "0x3F2f8D53F9A306eF2A1eF819EC8844883c1916a5";
