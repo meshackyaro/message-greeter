@@ -57,12 +57,12 @@ function App() {
       <h1>Set Message on Smart Contract</h1>
       <input
         type="text"
-        placeholder="type your message"
+        placeholder="write your message"
         value={text}
         onChange={(e) => setText(e.target.value)}
       />
-      <button onClick={handleSet}>Set Message</button>
-      <button onClick={handleGet}>Get Message</button>
+      <button onClick={handleSet}>Send Message</button>
+      <button onClick={handleGet}>Receive Message</button>
       <h1>{message}</h1>
     </div>
   );
